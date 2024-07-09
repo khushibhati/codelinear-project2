@@ -1,0 +1,592 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+
+.frame-child {
+    width: 30.4px;
+    height: 25px;
+    position: relative;
+    padding-left: 60px;
+     margin-top: 40px;
+   
+    
+ }
+  .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 1.5px;
+    
+  }
+  .grop{
+   
+    padding-top: 2px;
+  }
+  .group-icon {
+    width: 38.1px;
+    height: 24.7px;
+    position: relative;
+  }
+  .group-wrapper {
+    width: 183.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 7.6px;
+    box-sizing: border-box;
+  }
+  .item-link,
+  .item-link1,
+  .item-link2,
+  .item-link3,
+  .item-link4 {
+    text-decoration: none;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+  }
+  .item-link {
+    min-width: 70px;
+    white-space: nowrap;
+  }
+  .item-link1,
+  .item-link2,
+  .item-link3,
+  .item-link4 {
+    min-width: 66px;
+  }
+  .item-link2,
+  .item-link3,
+  .item-link4 {
+    min-width: 43px;
+  }
+  .item-link3,
+  .item-link4 {
+    min-width: 84px;
+  }
+  .item-link4 {
+    min-width: 61px;
+  }
+  .about-us-links,
+  .about-us-links-wrapper {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+
+  .about-us-links {
+    width: 600px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+  }
+  .about-us-links-wrapper {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .book-demo {
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;;
+    
+    text-align: left;
+    display: inline-block;
+    min-width: 75px;
+  }
+  .component-1,
+  .component-1-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .component-1 {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: var(--padding-5xs) 16px;
+    background-color: var(--white);
+    border-radius: 7px;
+    flex-direction: row;
+   
+    color: #000;
+    white-space: nowrap;
+   
+  }
+  .component-1:hover {
+    background-color: #c00;
+    color: white;
+  }
+  .component-1-wrapper {
+    flex-direction: column;
+    padding: 0 18px 0 0;
+    
+  }
+  .sign-in {
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+  
+    text-align: left;
+    display: inline-block;
+    min-width: 45px;
+  }
+  .component-2,
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .buto{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+  }
+  .component-2 {
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: var(--padding-5xs) 35px var(--padding-5xs) 36px;
+    background-color: #c00;
+  
+    align-items: flex-start;
+    white-space: nowrap;
+    color: white;
+    
+
+  }
+  .component-2:hover {
+    background-color: white;
+    color: #000;
+  }
+  .frame-parent {
+    width: 1232.3px;
+    align-items: flex-end;
+    gap: 5.7px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+  }
+  .we-raised-series {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: 44px;
+    letter-spacing: 0.5px;
+    line-height: 123.4%;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+
+   
+    width: 600px;
+  }
+  .watch-work-child {
+    height: 32px;
+    width: 32px;
+    position: relative;
+  }
+  .watch-how-we {
+    position: relative;
+    font-weight: 500;
+  }
+  .watch-how {
+    flex-direction: column;
+    padding: 5px 0 0;
+    font-family: "Manrope", sans-serif;
+  }
+  .desktop-1,
+  .revolutionise-radiology,
+  .watch-how,
+  .watch-work {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+  .watch-work {
+    flex-direction: row;
+    gap: 16px;
+    font-size: var(--font-size-base);
+    color: var(--grey);
+  }
+  .desktop-1,
+  .revolutionise-radiology {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .revolutionise-radiology {
+    width: 801px;
+    gap: 56px;
+    height: 330px;
+    padding-left: 40px;
+    color: white;
+  }
+  .we{
+    display: block;
+  }
+  .desktop-1 {
+    align-self: stretch;
+    padding: var(--padding-29xl) var(--padding-61xl) 113px;
+    box-sizing: border-box;
+    gap: 434px;
+    background-image: url(./asset/Homepage/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 48px;
+    color: var(--white);
+    font-family: var(--font-manrope);
+    height: 950px;
+    width: 1520px;
+  }
+  
+  .our-ai-partners {
+    margin: 0;
+    width: 129.6px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .openai-2-1-icon {
+    width: 44.7px;
+    height: 45.2px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-12xl) var(--padding-3xs-8) 0;
+  }
+  .openai-2-2-icon {
+    width: 44.7px;
+    height: 45.2px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .partners1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-3xs) var(--padding-3xs-8) 0;
+  }
+  .openai-2-3-icon {
+    width: 44.7px;
+    height: 45.2px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .partners2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-3xs) var(--padding-3xs-8) 0;
+  }
+  .openai-2-4-icon {
+    width: 44.7px;
+    height: 45.2px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .partners3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-3xs-8);
+  }
+  .section {
+    align-self: stretch;
+    background: linear-gradient(90deg, #2d5980, rgba(255, 255, 255, 0.3));
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 58px 128px 60px;
+    gap: 172.4px;
+    text-align: left;
+    font-size: 24px;
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+  }
+  .heading-2,  
+  .heading-21 {
+    font-size: 48px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+  }
+  .heading-2 {
+    margin: 0 !important;
+    position: absolute;
+    top: 48px;
+    left: 80px;
+  }
+  .heading-21 {
+    margin: 0;
+    height: 49px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 50px;
+  }
+  .divabsolute {
+    height: 732px;
+    width: 735px;
+    position: absolute;
+    margin: 0 !important;
+    top: -123px;
+    right: -91px;
+    background: linear-gradient(
+      208.19deg,
+      rgba(28, 39, 61, 0.8),
+      rgba(68, 110, 160, 0.8)
+    );
+    z-index: 1;
+  }
+  .divabsolute1 {
+    height: 1080px;
+    width: 1520px;
+    position: absolute;
+    margin: 0 !important;
+    top: -123px;
+    background: linear-gradient(
+      208.19deg,
+      rgba(142, 173, 234, 0.509),
+      rgba(69, 148, 246, 0.12)
+    );
+    z-index: 1;
+  }
+  .blank-line,
+  .blank-line1,
+  .blank-line2,
+  .blank-line3,
+  .c-network-is,
+  .c-network-is1,
+  .created-with-healthcare,
+  .not-only-do,
+  .simply-put-we {
+    margin: 0;
+  }
+  .c-network-is-container {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.7px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .divabsolute-parent,
+  .know-more {
+    position: relative;
+    font-size: var(--font-size-sm);
+    text-align: left;
+  }
+  .divabsolute-parent {
+    width: 564px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .know-more {
+    line-height: 28px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+     font-size: 14px;
+    color: var(--color-black);
+    display: inline-block;
+    min-width: 80px;
+  }
+  .component-5 {
+    cursor: pointer;
+    border: 0;
+    padding: 5px 10px;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 2;
+    color: black;
+  }
+  .component-5:hover {
+    background-color: #c00;
+    color: white;
+  }
+  .desktop-2,
+  .separator {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .desktop-2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Manrope", sans-serif;
+   width: 1520px;
+   height: 658px; 
+   padding-left: 60px;
+    box-sizing: border-box;
+    gap: 24px;
+    background-image: url(./asset/Homepage/hsnd1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--white);
+    
+  }
+  .separator {
+    height: 1px;
+    width: 1184px;
+    background-color: var(--white);
+    flex-shrink: 0;
+  }
+  .desktop-3,
+  .homepage {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .desktop-3 {
+    align-self: stretch;
+    height: 1024px;
+    background-color: var(--blue);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: center;
+    padding: 88px var(--padding-xl);
+    max-width: 100%;
+  }
+  .homepage {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 504px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: "Manrope", sans-serif;
+  }
+  @media screen and (max-width: 1250px) {
+    .about-us-links-wrapper {
+      display: none;
+    }
+    .frame-parent {
+      width: 484px;
+    }
+    .desktop-1,
+    .section {
+      gap: 217px;
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+    .section {
+      flex-wrap: wrap;
+      gap: 86px;
+      padding-left: var(--padding-45xl);
+      padding-right: var(--padding-45xl);
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .desktop-1 {
+      padding-top: var(--padding-12xl);
+      padding-bottom: 73px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .we-raised-series {
+      font-size: 38px;
+      line-height: 47px;
+    }
+    .desktop-1 {
+      gap: 108px;
+    }
+    .section {
+      gap: 43px;
+      padding-left: var(--padding-13xl);
+      padding-right: var(--padding-13xl);
+      box-sizing: border-box;
+    }
+    .heading-2,
+    .heading-21 {
+      font-size: var(--font-size-10xl);
+    }
+    .desktop-2 {
+      padding: var(--padding-12xl) 39px var(--padding-3xl) var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .we-raised-series {
+      font-size: var(--font-size-10xl);
+      line-height: 36px;
+    }
+    .revolutionise-radiology {
+      gap: 28px;
+      
+    }
+    .desktop-1 {
+      gap: 54px;
+      padding-left: 40px;
+      
+      box-sizing: border-box;
+    padding-top: 50px;
+    }
+    .our-ai-partners {
+      font-size: 19px;
+    }
+    .section {
+      gap: 22px;
+    }
+    .heading-2,
+    .heading-21 {
+      font-size: var(--font-size-3xl);
+    }
+  }

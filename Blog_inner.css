@@ -1,0 +1,1008 @@
+.frame-child {
+    position: absolute;
+    top: -93px;
+    left: 0;
+    border-radius: 0 0 var(--br-21xl) var(--br-21xl);
+    width: 1480px;
+    height: 527px;
+    object-fit: cover;
+    padding: 4px;
+  }
+  .frame-item,
+  .group-icon {
+    position: absolute;
+    top: 36.2px;
+    left: 117.4px;
+    width: 38.1px;
+    height: 24.7px;
+    z-index: 1;
+  }
+  .frame-item {
+    top: 30px;
+    left: 76.2px;
+    width: 35.4px;
+    height: 37px;
+  }
+  .rectangle-parent {
+    width: 1550px;
+    height: 434px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+   left: 10px;
+  
+  }
+  .item-link {
+    text-decoration: none;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 73px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .item-link1 {
+    color: inherit;
+    min-width: 68px;
+  }
+  .item-link1,
+  .item-link2,
+  .item-link3,
+  .item-link4 {
+    text-decoration: none;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .item-link2 {
+    color:  #2D5980;
+    
+    min-width: 60px;
+   
+  }
+  .item-link3,
+  .item-link4 {
+    color: inherit;
+    min-width: 92px;
+  }
+  .item-link4 {
+    min-width: 64px;
+  }
+  .about-us-links {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .about-us-links-wrapper {
+    width: 533px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .sign-in {
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .component-6,
+  .desktop-6-inner,
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .component-6 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) 34px var(--padding-5xs) 35px;
+    background-color: var(--blue);
+    border-radius: 8px;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+    margin-right: 80px;
+  }
+  .component-6:hover {
+    background-color: #5480a6;
+  }
+  .desktop-6-inner,
+  .frame-parent {
+    max-width: 100%;
+  }
+  .frame-parent {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    
+  }
+  .desktop-6-inner {
+    width: 904px;
+    justify-content: flex-end;
+    padding: 0 2px;
+    box-sizing: border-box;
+    margin-top: 30px;
+   
+  }
+  .kalyan-sivasailam {
+    position: relative;
+    font-weight: 500;
+    color: var(--blue);
+  }
+  .b,
+  .oct-12 {
+    position: relative;
+    display: inline-block;
+  }
+  .b {
+    font-size: 12px;
+    min-width: 4px;
+  }
+  .oct-12 {
+    font-weight: 500;
+    min-width: 97px;
+  }
+  .funding-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .we-raised-series {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-17xl);
+    line-height: 124%;
+    font-weight: 600;
+    font-family: inherit;
+    color: #2c2c2c;
+  }
+  .funding-details-parent {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    max-width: 100%;
+  }
+  .here1 {
+    text-decoration: underline;
+  }
+  .here {
+    color: inherit;
+  }
+  .here3 {
+    text-decoration: underline;
+  }
+  .here2 {
+    color: inherit;
+  }
+  .blank-line,
+  .blank-line1,
+  .rather-than-simply,
+  .syed-and-i,
+  .today-we-announced-our-usd-4 {
+    margin: 0;
+  }
+  .today-we-announced-container {
+    align-self: stretch;
+    position: relative;
+    color: var(--color-black);
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+    font-family: var(--font-poppins);
+  }
+  .an-india-problem {
+    position: relative;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .blank-line2,
+  .in-startup-parlance,
+  .we-soon-realized {
+    margin: 0;
+  }
+  .in-startup-parlance-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+  .an-india-problem-not-just-a-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .the-future-of {
+    position: relative;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .blank-line3,
+  .blank-line4,
+  .blank-line5,
+  .blank-line6,
+  .blank-line7,
+  .but-there-were,
+  .in-hindsight-its,
+  .secondly-the-radiologists,
+  .we-noticed-with,
+  .when-expertise-is,
+  .you-can-expect {
+    margin: 0;
+  }
+  .in-hindsight-its-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+  .the-future-of-work-for-diagnos-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .raising-the-bar {
+    position: relative;
+    line-height: 25px;
+    font-weight: 600;
+  }
+  .blank-line8,
+  .especially-today-when,
+  .the-sanskrit-word {
+    margin: 0;
+  }
+  .the-sanskrit-word-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+  .frame-wrapper,
+  .raising-the-bar-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .raising-the-bar-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-base);
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .strengthening-our-diagnostic {
+    position: relative;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .another-massive-learning,
+  .blank-line10,
+  .blank-line11,
+  .blank-line12,
+  .blank-line13,
+  .blank-line9,
+  .during-the-second,
+  .our-average-turn,
+  .there-is-something,
+  .we-are-committing,
+  .we-are-just {
+    margin: 0;
+  }
+  .another-massive-learning-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+  .frame-section,
+  .strengthening-our-diagnostic-p-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .strengthening-our-diagnostic-p-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xl);
+  }
+  .frame-section {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .strengthening-our-diagnostic1 {
+    position: relative;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .another-massive-learning1,
+  .blank-line14,
+  .blank-line15,
+  .blank-line16,
+  .blank-line17,
+  .blank-line18,
+  .during-the-second1,
+  .our-average-turn1,
+  .there-is-something1,
+  .we-are-committing1,
+  .we-are-just1 {
+    margin: 0;
+  }
+  .another-massive-learning-container1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+  .frame-wrapper1,
+  .strengthening-our-diagnostic-p-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .strengthening-our-diagnostic-p-group {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xl);
+  }
+  .frame-wrapper1 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .platforms-are-communities {
+    position: relative;
+    line-height: 25px;
+    font-weight: 600;
+  }
+  .blank-line19,
+  .blank-line20,
+  .enter-the-idea,
+  .our-radiologists-have,
+  .when-we-think {
+    margin: 0;
+  }
+  .when-we-think-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+  .frame-wrapper2,
+  .platforms-are-communities-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .platforms-are-communities-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xl);
+  }
+  .frame-wrapper2 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .building-a-better {
+    position: relative;
+    line-height: 25px;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .as-you-would,
+  .blank-line21,
+  .blank-line22,
+  .c-is-not,
+  .we-have-big {
+    margin: 0;
+  }
+  .as-you-would-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+  .building-a-better-experience-f-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    max-width: 100%;
+  }
+  .p,
+  .p1 {
+    margin: 0;
+  }
+  .div {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .frame-div,
+  .frame-wrapper3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-div {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-13xl);
+  }
+  .frame-wrapper3 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 32px var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .frame-inner {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xl) var(--padding-2xl) 22px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .heading-2 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: inherit;
+    align-self: center;
+    background: linear-gradient(90deg, #2d5980ca, rgba(45, 89, 128, 0.522));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+  }
+  .frame-group,
+  .heading-2-introduction-wrapper {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .heading-2-introduction-wrapper {
+    width: 1254px;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+   margin-left: 100px;
+
+   
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px;
+    gap: 48px;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-poppins);
+    color: #000;  }
+    
+  .ellipse-div,
+  .frame-child1,
+  .frame-child2 {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--blue);
+  }
+  .frame-child1,
+  .frame-child2 {
+    background-color: var(--color-gainsboro);
+  }
+  .desktop-6-child,
+  .ellipse-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .ellipse-parent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .desktop-6-child {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .desktop-6 {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 27.5px 81px var(--padding-21xl) 80px;
+    box-sizing: border-box;
+    gap: 422.5px;
+    line-height: normal;
+    letter-spacing: normal;
+    
+    font-size: var(--font-size-base);
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+  @media screen and (max-width: 1200px) {
+    .frame-group {
+      padding-bottom: 48px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .we-raised-series {
+      line-height: 36px;
+    }
+    .heading-2,
+    .we-raised-series {
+      font-size: var(--font-size-10xl);
+    }
+    .frame-group {
+      padding-bottom: 31px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .about-us-links {
+      display: none;
+    }
+    .about-us-links-wrapper {
+      width: 0;
+      
+    }
+    .frame-container,
+    .frame-div {
+      gap: var(--gap-base);
+    }
+    .frame-group {
+      gap: var(--gap-5xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .desktop-6 {
+      gap: 211px;
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .we-raised-series {
+      font-size: var(--font-size-3xl);
+      line-height: 27px;
+    }
+    .an-india-problem,
+    .building-a-better,
+    .platforms-are-communities,
+    .raising-the-bar,
+    .strengthening-our-diagnostic,
+    .strengthening-our-diagnostic1,
+    .the-future-of {
+      font-size: var(--font-size-base);
+      line-height: 20px;
+    }
+    .div {
+      font-size: var(--font-size-base);
+    }
+    .heading-2 {
+      font-size: var(--font-size-3xl);
+    }
+    .desktop-6 {
+      gap: 106px;
+    }
+  }
+
+
+
+  /* section part css */
+  .cardmedialarge {
+    height: 280px;
+    width: 500px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-image: url(./public/cardmedialarge@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 500px;
+    max-width: 100%;
+  }
+  .b,
+  .nov-08,
+  .sam-sam {
+    position: relative;
+    display: inline-block;
+  }
+  .sam-sam {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--blue);
+    min-width: 59px;
+    font-size: 12px;
+  }
+  .b,
+  .nov-08 {
+    min-width: 4px;
+    font-size: 12px;
+    color: #898888c4;
+  }
+  
+  .nov-08 {
+    text-decoration: none;
+    font-weight: 500;
+   
+    min-width: 77px;
+  }
+  .sam-sam-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    padding-left: 6px;
+  }
+  .world-radiology-day {
+    margin: 0;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--black);
+   padding-left: 10px;
+   width: 400px;
+   
+  }
+
+  .world-radiology-day1 {
+    margin: 0;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--black);
+   padding-left: 10px;
+   
+  }
+  .frame-parent1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 1px;
+    max-width: 100%;
+  }
+  .blank-line,
+  .on-8th-of,
+  .the-international-day {
+    margin: 0;
+  }
+  .the-international-day-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6E6E6E;
+  }
+  .title-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 9px 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .min-read,
+  .read-full {
+    position: relative;
+    display: inline-block;
+  }
+  .min-read {
+    font-weight: 500;
+    min-width: 67px;
+    font-size: 12px;
+    color: #00000044;
+    padding: 10px;
+  }
+  .read-full {
+    min-width: 56px;
+    font-size: 12px;
+    padding: 10px 0px ;
+   
+  }
+  .read-full-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3px 0 0;
+  }
+  .iconarrow {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+    padding-top: 2px;
+  }
+  .button,
+  .readbtncontent {
+    display: flex;
+    flex-direction: row;
+  }
+  .button {
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--blue);
+    font-family: var(--small-bold);
+  }
+  .readbtncontent {
+    align-self: stretch;
+    background-color: var(--color-white);
+    overflow: hidden;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 24px 0 0;
+    gap: 20px;
+  }
+  
+  
+
+  cardmediamini-icon {
+    align-self: stretch;
+    height: 200px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+
+  
+  .diagnosing-the-diagnostic {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-gray);
+  }
+  .diagnosis-card-media,
+  .sam-dec-network {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-12xs);
+  }
+  .diagnosis-card-media {
+    gap: var(--gap-sm);
+    color: var(--blue);
+  }
+  .radiology-is-a {
+    align-self: stretch;
+    height: 147px;
+    position: relative;
+    font-size: var(--body-regular-size);
+    line-height: 21px;
+    font-family: var(--small-bold);
+    display: flex;
+    align-items: center;
+    
+  }
+  .min-read,
+  .read-full {
+    position: relative;
+    display: inline-block;
+  }
+  .min-read {
+    font-weight: 500;
+    min-width: 71px;
+  }
+  .read-full {
+    min-width: 56px;
+  }
+  .read-full-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .iconarrow {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+  }
+  .button,
+  .min-read-parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .button {
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--blue);
+    font-family: var(--small-bold);
+  }
+  .min-read-parent {
+    align-self: stretch;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 var(--padding-base) 0 0;
+    gap: var(--gap-xl);
+  }
+ .ravv{
+    color: #6E6E6E;
+    width: 360px;
+    height: 147px;
+    font-size: 14px;
+    align-self: self-start;
+    padding-left: 10px;
+    text-align: start;
+ }
+ .text{
+    display: block;
+ }
+ .cardmediamini-icon1,
+.cardmini {
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+}
+.cardmini {
+  background-color: var(--color-white);
+  border:  1px solid #CACACA66;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17.5px;
+
+}
+.cardmediamini-icon {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  flex-shrink: 0;
+  padding: 20px;
+}
+.cardmini {
+    border-radius: var(--br-8xs);
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0px 20px 0px 20px ;
+  
+  }
+  .read-full{
+    padding-top: 2px;
+  }
+  .diagnosis-card{
+    display: flex;
+   
+  }
+
+  .dia{
+    display: block;
+    text-align: start;
+  }
+  
+  .dot{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }

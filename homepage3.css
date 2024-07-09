@@ -1,0 +1,1433 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.frame-child
+ {
+  height: 37px;
+  width: 50.4px;
+  position: relative;
+  z-index: 1;
+
+}
+.group-icon {
+  width: 112px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+
+}
+
+.group-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0;
+  width: 112px;
+  
+}
+
+
+
+.frame-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-center;
+  padding: 0 27px 0 0;
+  gap: 5.8px;
+ 
+}
+.item-link,
+.item-link1,
+.item-link2,
+.item-link3,
+.item-link4 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.item-link {
+  min-width: 73px;
+  white-space: nowrap;
+}
+.item-link1,
+.item-link2,
+.item-link3,
+.item-link4 {
+  min-width: 68px;
+}
+.item-link2,
+.item-link3,
+.item-link4 {
+  min-width: 44px;
+}
+.item-link3,
+.item-link4 {
+  min-width: 92px;
+}
+.item-link4 {
+  min-width: 64px;
+}
+.frame-wrapper,
+.item-link-about-us-parent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.item-link-about-us-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: 16px;
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+}
+.frame-wrapper {
+  width: 533px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px 0 5px;
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
+.sign-in {
+  text-decoration: none;
+  position: relative;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+
+  text-align: right;
+  display: inline-block;
+  min-width: 48px;
+ 
+  
+}
+
+.component-6 {
+  
+  cursor: pointer;
+  border: 0;
+  background-color:  #2D5980;
+  width: 117px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+  margin-right: 70px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.component-6:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+.desktop-4-inner,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+ 
+  width: 1300px;
+  height:62px ;
+}
+.frame-parent {
+  width: 1256.8px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.desktop-4-inner {
+  align-self: stretch;
+  align-items: flex-center;
+  justify-content: flex-end;
+  
+  box-sizing: border-box;
+  padding-left: 100px;
+ 
+ 
+}
+.group-icon1 {
+  width: 1594.8px;
+  height: 3570.6px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.we-raised-series {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: 0.5px;
+  line-height: 123.4%;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.frame-item,
+.watch-how-we,
+.we-raised-series {
+  position: relative;
+  z-index: 1;
+}
+.frame-item {
+  height: 32px;
+  width: 32px;
+}
+.watch-how-we {
+  text-decoration: underline;
+  font-weight: 500;
+  color: inherit;
+}
+.frame-container,
+.watch-how-we-work-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.watch-how-we-work-wrapper {
+  flex-direction: column;
+  padding: 4px 0 0;
+}
+.frame-container {
+  flex-direction: row;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--grey);
+  padding-left: 20px;
+}
+.testimonial-author,
+.we-raised-series-a-to-revoluti-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.we-raised-series-a-to-revoluti-parent {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.testimonial-author {
+  width: 563px;
+  padding: 102px 0 0;
+  box-sizing: border-box;
+  min-width: 563px;
+  max-width: 100%;
+}
+.form-divider-icon {
+  height: 800px;
+  width: 1416px;
+  position: absolute;
+  margin: 0 !important;
+  top: -254px;
+  left: -989px;
+  border-radius: 0 0 var(--br-21xl) var(--br-21xl);
+  object-fit: cover;
+}
+.form-container-child {
+  width: 341px;
+  height: 445px;
+  position: relative;
+  box-shadow: 22.4px -22.4px 22.39px rgba(165, 165, 165, 0.1) inset,
+    -22.4px 22.4px 22.39px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.book-demo {
+  margin: 0;
+  
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  z-index: 1;
+  
+  position: absolute;
+  width: 400px;
+  
+}
+.book-demo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px 100px 25px;
+  font-size: 24px;
+  color: white;
+  position: relative;
+
+}
+.frame-inner,
+.name-please {
+  position: relative;
+  z-index: 1;
+}
+.name-please {
+  line-height: 11px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 80px;
+}
+.frame-inner {
+  align-self: stretch;
+  height: 1px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.name-please-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.contact-no,
+.vector-icon {
+  position: relative;
+  z-index: 1;
+}
+.contact-no {
+  line-height: 11px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 72px;
+}
+.vector-icon {
+  align-self: stretch;
+  height: 1px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contact-no-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.contact-no-parent,
+.name-contact-input,
+.name-contact-input-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name-contact-input {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.name-contact-input-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs) 0 var(--padding-xs);
+}
+.email-id {
+  position: relative;
+  line-height: 11px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+.email-company-sub-fields-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.email-company-sub-fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.email-company-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) 0 var(--padding-xs);
+}
+.your-booking-demo {
+  position: relative;
+  line-height: 13px;
+  font-weight: 500;
+  z-index: 1;
+}
+.your-booking-demo-as-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 39px 0 41px;
+}
+.component-12 {
+  cursor: pointer;
+  margin: 0;
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.radiologist {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 68px;
+}
+.booking-entity-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.component-121 {
+  cursor: pointer;
+  margin: 0;
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.diagnostic-centre {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 109px;
+}
+.booking-entity-label1,
+.booking-entity-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.booking-entity-option {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.component-122 {
+  cursor: pointer;
+  margin: 0;
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.hospitalchain-of-hospitals {
+  position: relative;
+  font-weight: 500;
+}
+.component-12-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.booking-entity-option-parent,
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.booking-entity-option-parent {
+  gap: var(--gap-5xs);
+  z-index: 1;
+  font-size: var(--font-size-xs);
+}
+.frame-div {
+  gap: var(--gap-base);
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  padding-left: 23px;
+}
+.company-name {
+  position: relative;
+  line-height: 11px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 1;
+}
+.frame-child1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.company-name-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.email-company-fields1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) var(--padding-5xs) var(--padding-xs);
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  
+  text-align: left;
+  display: inline-block;
+  min-width: 52px;
+}
+.component-8,
+.component-8-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.component-8 {
+  cursor: pointer;
+  border: 2px solid transparent;
+  color: var(--black);
+  padding: var(--padding-5xs) var(--padding-13xl) var(--padding-5xs) 33px;
+  background-color: var(--white);
+  border-radius: 8px;
+  justify-content: flex-start;
+  z-index: 1;
+  margin-right: 20px;
+}
+.component-8:hover {
+  background-color:  #2D5980;
+  color: white;
+}
+.component-8-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 61px;
+}
+.email-company-placeholder,
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.email-company-placeholder {
+  align-self: stretch;
+  align-items: flex-end;
+}
+.form-container {
+  flex: 1;
+  box-shadow: 22.4px -22.4px 22.39px rgba(165, 165, 165, 0.1) inset,
+    -22.4px 22.4px 22.39px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  align-items: flex-start;
+  padding: var(--padding-13xl) var(--padding-32xl) var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.form-divider-parent {
+  width: 400px;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 341px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+ 
+  
+}
+.desktop-4-child,
+.form-divider-parent,
+.testimonial-author-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonial-author-parent {
+  width: 1173px;
+  justify-content: space-between;
+  gap: 2px;
+ 
+}
+.desktop-4-child {
+  width: 1345px;
+  justify-content: center;
+  padding: 0 0 85px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 48px;
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+
+}
+.heading-2 {
+  margin: 0;
+  position: relative;
+  font-size: 36px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #2d5980, rgba(86, 120, 150, 0.534));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blank-line,
+.blank-line1,
+.blank-line2,
+.c-network-has,
+.c-network-is,
+.our-team-of,
+.we-focus-on {
+  margin: 0;
+}
+.c-network-is-container {
+  align-self: stretch;
+  height: 399px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.02px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 737px;
+}
+.heading-2-introduction-parent {
+  width: 1520px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+  max-width: 100%;
+ 
+}
+  
+
+.teleradiology-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+
+}
+.testimonial-author1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0  0 22px;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-right: 20px;
+  
+
+}
+.heading-21,
+.radiation-1 {
+  margin: 0;
+  position: relative;
+ 
+}
+.heading-21 {
+  font-size: inherit;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #2d5980, rgba(24, 108, 181, 0.485));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+}
+.radiation-1 {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.teleradiology {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.teleradiology-benefit-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.get-radiology-interpretation {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+}
+.teleradiology-benefit-descript {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 307px;
+  max-width: 100%;
+}
+.radiation-11 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.our-quality-process {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.radiation-1-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.mistake-proof-design {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+}
+.teleradiology-benefit-descript1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 307px;
+  max-width: 100%;
+}
+.radiation-12 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.artificial-intelligence {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.radiation-1-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ai-built-with {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+}
+.teleradiology-benefit-descript2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 307px;
+  max-width: 100%;
+}
+.teleradiology-benefits,
+.teleradiology-description-cont {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.teleradiology-benefits {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xl);
+}
+.teleradiology-description-cont {
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+.radiation-13 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.collaboration {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.collaboration-benefit-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.real-time-collaboration-betwee {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+}
+.collaboration-benefit-descript {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 307px;
+  max-width: 100%;
+}
+.radiation-14 {
+  cursor: pointer;
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.second-opinion {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.radiation-1-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.a-second-opinion,
+.understanding-of-the {
+  margin: 0;
+}
+.a-second-opinion-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+}
+.collaboration-benefit-descript1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 307px;
+  max-width: 100%;
+}
+.nighthawk,
+.radiation-15 {
+  margin: 0;
+  position: relative;
+}
+.radiation-15 {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nighthawk {
+  font-size: inherit;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  min-width: 106px;
+}
+.radiation-1-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.c-network-provides {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+}
+.collaboration-benefit-descript2,
+.collaboration-benefits {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.collaboration-benefit-descript2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  min-width: 307px;
+}
+.collaboration-benefits {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xl);
+}
+.teleradiology-description-cont-parent,
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.teleradiology-description-cont-parent {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+  text-align: left;
+  color: var(--color-gray-100);
+}
+.testimonial-container {
+  flex: 1;
+  gap: 55px;
+}
+.testimonial-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-39xl) 0 var(--padding-37xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+.component-9 {
+  width: 482px;
+  height: 438px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+  
+}
+.team-divider {
+  width: 1392px;
+  height: 600px;
+  position: absolute;
+  border: 1px solid transparent;
+  margin: 0 ;
+  top: 600px;
+  left: 1450px;
+  border-radius:  0px 0px 40px 40px;
+  background: linear-gradient(180deg, rgba(45, 89, 128, 0) -98.27%, #1B3363 100%);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+
+}
+.name12{
+  width: 1050px;
+  height: 237px;
+   align-self: center;
+   /* margin: right 80px; */
+  
+
+   
+}
+.heading-22 {
+  margin: 0;
+  height: 54px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  margin-left: 20px;
+  
+}
+.heading-2-introduction-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.meet-our-leadership {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.frame-parent1,
+.intro-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent1 {
+  width: 945px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.intro-container {
+  width: 1215px;
+  flex-direction: row;
+  justify-content: center;
+}
+/* .team-image-placeholder {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background: linear-gradient(180deg, rgba(45, 89, 128, 0), #1b3363);
+  max-width: 100%;
+} */
+.component-20,
+.team-divider-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component-20 {
+  height: 23px;
+  flex-direction: row;
+  z-index: 1;
+}
+.team-divider-parent {
+  flex-direction: column;
+  padding: var(--padding-37xl) 69px var(--padding-37xl) 70px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 80px;
+}
+.heading-23 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #2d5980, rgba(45, 89, 128, 0.487));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+}
+.bangaloreindia,
+.heading-23,
+.jain-diagnostics {
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.jain-diagnostics {
+  font-weight: 600;
+}
+.bangaloreindia {
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  display: inline-block;
+  min-width: 102px;
+  z-index: 1;
+}
+.frame-wrapper1,
+.jain-diagnostics-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper1 {
+  padding: 63px 0 0;
+}
+.the-quality-of {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+  display: inline-block;
+  min-width: 300px;
+  max-width: 100%;
+}
+.bangaloreindia1,
+.ln-diagnostics {
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.ln-diagnostics {
+  align-self: stretch;
+  font-weight: 600;
+}
+.bangaloreindia1 {
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+  display: inline-block;
+  min-width: 102px;
+  z-index: 1;
+}
+.frame-wrapper2,
+.ln-diagnostics-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ln-diagnostics-parent {
+  align-self: stretch;
+}
+.frame-wrapper2 {
+  width: 143px;
+  padding: var(--padding-39xl) 0 0;
+  box-sizing: border-box;
+}
+.ahead-keep-it,
+.in-our-experience,
+.them-for-their {
+  margin: 0;
+}
+.in-our-experience-container {
+  align-self: stretch;
+  position: relative;
+}
+.frame-child2,
+.frame-child3 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.frame-parent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frame-wrapper4,
+.in-our-experience-5c-network-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.in-our-experience-5c-network-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.frame-parent2,
+.frame-wrapper3 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper3 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 16px 0 0;
+  box-sizing: border-box;
+  min-width: 300px;
+  font-size: var(--font-size-sm);
+  color: var(--blue);
+}
+.frame-parent2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.frame-f,
+.heading-2-introduction-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heading-2-introduction-group {
+  flex: 1;
+  flex-direction: column;
+  gap: 39px;
+}
+.frame-f{
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-200);
+  font-family: "Poppins", sans-serif;
+}
+.desktop-4,
+.frame-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-section {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 56px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+}
+.desktop-4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: flex-end;
+  font-family: "Poppins", sans-serif;
+
+  box-sizing: border-box;
+  gap: 72px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+/* @media screen and (max-width: 1200px) {
+  .desktop-4-inner {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .testimonial-container-wrapper {
+    padding-left: var(--padding-9xl);
+    padding-right: 29px;
+    box-sizing: border-box;
+  }
+  .frame-footer,
+  .team-divider-parent {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .frame-footer {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .we-raised-series {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .form-divider-parent,
+  .testimonial-author {
+    flex: 1;
+  }
+  .testimonial-author-parent {
+    flex-wrap: wrap;
+  }
+  .heading-2,
+  .heading-21,
+  .heading-22,
+  .heading-23 {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-wrapper {
+    display: none;
+  }
+  .frame-parent {
+    width: 723.8px;
+  }
+  .we-raised-series-a-to-revoluti-parent {
+    gap: var(--gap-base);
+  }
+  .testimonial-author {
+    min-width: 100%;
+  }
+  .desktop-4-child {
+    padding-bottom: 55px;
+    box-sizing: border-box;
+  }
+  .teleradiology-description-cont {
+    gap: var(--gap-5xl);
+  }
+  .teleradiology-description-cont-parent {
+    gap: var(--gap-xl);
+  }
+  .testimonial-container {
+    gap: 27px;
+  }
+  .team-divider-parent {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .heading-2-introduction-group {
+    gap: 19px;
+  }
+  .frame-section {
+    gap: 28px;
+  }
+  .desktop-4 {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .we-raised-series {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .book-demo {
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .form-container {
+    padding: var(--padding-2xl) var(--padding-xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .form-divider-parent {
+    min-width: 100%;
+  }
+  .heading-2,
+  .heading-21 {
+    font-size: var(--font-size-3xl);
+  }
+  .artificial-intelligence,
+  .collaboration,
+  .nighthawk,
+  .our-quality-process,
+  .second-opinion,
+  .teleradiology {
+    font-size: var(--font-size-base);
+  }
+  .heading-22 {
+    font-size: var(--font-size-3xl);
+  }
+  .team-divider-parent {
+    gap: var(--gap-xl);
+  }
+  .heading-23 {
+    font-size: var(--font-size-3xl);
+  }
+  .in-our-experience-5c-network-parent {
+    gap: var(--gap-base);
+  }
+  .desktop-4 {
+    gap: 18px;
+  }
+}
+ */
+ .terms {
+  flex-direction: column;
+  padding-top:50px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+ .desktop-5 {
+    width:100%;
+    position: relative;
+    height: 334px;
+    background: linear-gradient(180deg, rgb(0 4 7 / 76%) -27.12%, #0d2c6a 100%);
+    overflow: hidden;
+    padding: 29px 3px 24px;
+    box-sizing: border-box;
+    gap: 47px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+
+  .twoimg{
+    display: flex;
+    width: 100%;
+    gap:70px
+  }
+
+  

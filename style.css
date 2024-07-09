@@ -1,0 +1,79 @@
+/* Reset and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .slider {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slider__input {
+    display: none;
+  }
+  
+  .slider__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .slider__input:checked + .slider__slide {
+    opacity: 1;
+  }
+  
+  .slider__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider__nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .slider__nav-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #999;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .slider__nav-item:hover {
+    background-color: #555;
+  }
+  
+  /* Adjust active nav item style */
+  .slider__input:checked + .slider__slide + .slider__nav label {
+    background-color: #555;
+  }
+  
+  .in{
+    margin-bottom: 20px;
+    
+  }

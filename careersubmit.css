@@ -1,0 +1,365 @@
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --color-gray-200: #444;
+    --color-gray-100: #ccc;
+    --color-black: #000;
+    --color-dimgray: #696969;
+    --color-white: #fff;
+    --color-lightgray: #efefef;
+    --font-size-xl: 16px;
+    --font-size-base: 14px;
+    --font-size-lg: 20px;
+    --padding-11xs: 4px;
+    --padding-xl: 20px;
+    --padding-22xl: 40px;
+    --gap-mini: 8px;
+    --gap-lg: 24px;
+    --gap-xl: 32px;
+    --gap-32xl: 64px;
+    --gap-6xl: 48px;
+    --br-3xs: 4px;
+    --blog-card: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: var(--font-poppins);
+    background-color: var(--color-white);
+  }
+  
+  .we-make-digital {
+    font-size: 36px;
+    line-height: 114.02%;
+    font-weight: 500;
+    color: var(--color-gray-200);
+    text-align: left;
+  }
+  
+  .material-symbolsclose-icon {
+    height: 48px;
+    width: 48px;
+    flex-shrink: 0;
+  }
+  
+  .we-make-digital-marketing-simp-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    width: 100%;
+  }
+  
+  .we-make-digital1 {
+    font-size: var(--font-size-base);
+    line-height: 114.02%;
+    color: var(--color-gray-200);
+    text-align: left;
+  }
+  
+  .mdilocation-icon {
+    height: 17px;
+    width: 17px;
+    flex-shrink: 0;
+  }
+  
+  .we-make-digital2 {
+    font-size: var(--font-size-base);
+    line-height: 114.02%;
+    color: var(--color-gray-200);
+    text-align: left;
+  }
+  
+  .location-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  
+  .we-make-digital-marketing-simp-group {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xl);
+  }
+  
+  .frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+  }
+  
+  .lorem-ipsum-dolor {
+    font-size: var(--font-size-base);
+    line-height: 138.52%;
+    color: var(--color-black);
+    opacity: 0;
+    max-width: 100%;
+  }
+  
+  .frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+    width: 100%;
+  }
+  
+  .first-name,
+  .last-name,
+  .phone {
+    border: none;
+    outline: none;
+    font-family: var(--font-poppins);
+    background-color: transparent;
+    height: 28px;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray);
+    text-align: left;
+  }
+  
+  .phone-field-wrapper {
+    border-top: 1px solid var(--color-gray-100);
+    width: 100%;
+  }
+  
+  .name-fields {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-mini);
+    width: 200px;
+    justify-content: space-between;
+    gap: 300px;
+
+  }
+  
+  .upload-icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .vector-icon {
+    height: 8.2px;
+    width: 15.3px;
+  }
+  
+  .upload-button {
+    display: flex;
+   width: 200px;
+    flex-direction: column;
+   
+  }
+  
+  .upload-fields-child {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .upload-fields {
+    display: flex;
+    flex-direction: row;
+   
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .upload-wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding-left: var(--padding-11xs);
+    width: 100%;
+  }
+  
+  .name-fields-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-32xl);
+    width: 100%;
+  }
+  
+  .name-separator {
+    border-top: 1px solid var(--color-gray-100);
+    width: 100%;
+  }
+  
+  .name-fields-wrapper-inner {
+    display: flex;
+    align-items: flex-start;
+    padding-left: var(--padding-11xs);
+    width: 100%;
+  }
+  
+  .click-here-to {
+    font-size: var(--font-size-base);
+    line-height: 17px;
+    text-transform: capitalize;
+    color: var(--color-dimgray);
+    text-align: left;
+  }
+  
+  .click-here-to-upload-your-cv-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    width: 100%;
+  }
+  
+  .phone-separator {
+    height: 0;
+    width: 100%;
+  }
+  
+  .frame-div {
+    border-radius: 20px;
+    background-color: var(--color-lightgray);
+    display: flex;
+    flex-direction: column;
+  padding: 10px;
+    width: 300px;
+    align-items: center;
+
+  }
+  
+  .name-fields-wrapper1 {
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+  }
+  
+  .form-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    width: 100%;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: var(--padding-22xl);
+    width: 100%;
+  }
+  
+  .frame-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  }
+  
+  .submit {
+    font-size: 17.6px;
+    line-height: 31px;
+    font-weight: 600;
+    color: var(--color-black);
+    text-align: left;
+  }
+  
+  .component-172 {
+    cursor: pointer;
+    border: 1.3px solid var(--color-black);
+    padding: var(--padding-5xs) 38px;
+    background-color: var(--color-white);
+    border-radius: var(--br-3xs);
+    width: 147px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .component-172:hover {
+    background-color: #e6e6e6;
+    border: 1.3px solid #333;
+  }
+  
+  .submit-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .career-submit {
+    width: 1000px;
+    position: relative;
+    box-shadow: var(--blog-card);
+    border-radius: 22px;
+    border: 2px solid transparent;
+    background-color:white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 66px 85px;
+    box-sizing: border-box;
+    gap: 54.9px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-gray-100);
+    font-family: var(--font-poppins);
+    height: 620px;
+    align-self: center;
+    margin-top:100px;
+    margin-left: 190px;
+    box-shadow: 0.91px 0.91px 21px 0px #1D1D1D1A;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .career-submit {
+      gap: 45px;
+    }
+  }
+  
+  @media screen and (max-width: 975px) {
+    .we-make-digital {
+      font-size: 29px;
+      line-height: 33px;
+    }
+  }
+  
+  @media screen and (max-width: 725px) {
+    .frame-group,
+    .frame-parent {
+      gap: var(--gap-lg);
+    }
+    .career-submit {
+      gap: 23px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .we-make-digital {
+      font-size: 22px;
+      line-height: 25px;
+    }
+    .we-make-digital-marketing-simp-parent {
+      flex-wrap: wrap;
+    }
+    .first-name,
+    .phone,
+    .placeholder {
+      font-size: var(--font-size-base);
+      line-height: 22px;
+    }
+    .name-fields-wrapper {
+      gap: var(--gap-6xl);
+    }
+    .last-name {
+      font-size: var(--font-size-base);
+      line-height: 22px;
+    }
+    .name-fields-wrapper1 {
+      gap: var(--gap-6xl);
+    }
+  }
+  

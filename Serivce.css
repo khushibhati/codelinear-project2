@@ -1,0 +1,483 @@
+item-link {
+  min-width: 73px;
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+}
+.item-link,
+.item-link1,
+.item-link2,
+.item-link3,
+.item-link4 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+  text-decoration: none;
+}
+.item-link1 {
+  color: var(--blue);
+  min-width: 68px;
+}
+.item-link2,
+.item-link3,
+.item-link4 {
+  min-width: 44px;
+  color: white;
+}
+.item-link3,
+.item-link4 {
+  min-width: 92px;
+}
+.item-link4 {
+  min-width: 64px;
+}
+.item-link-about-us-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.remote-radiology-inner {
+  width: 533px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-in {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 48px;
+}
+.component-6,
+.remote-radiology {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.component-6 {
+  border-radius: 8px;
+  background-color: var(--blue);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 34px var(--padding-5xs) 35px;
+  white-space: nowrap;
+  z-index: 1;
+  text-align: left;
+  font-size: 14px;
+  color: var(--white);
+}
+.component-6:hover{
+  background-color: white;
+  color: #000;
+}
+.remote-radiology {
+  width: 900px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-21xl) var(--br-21xl);
+  background: linear-gradient(180deg, rgba(45, 89, 128, 0), #1b3363);
+  width: 100%;
+  height: 100%;
+}
+.frame-item,
+.group-icon {
+  position: absolute;
+  top: 129.2px;
+  left: 117.4px;
+  width: 38.1px;
+  height: 24.7px;
+  z-index: 1;
+}
+.frame-item {
+  top: 123px;
+  left: 76.2px;
+  width: 35.4px;
+  height: 37px;
+}
+.rectangle-parent {
+  width: 100%;
+  height: 527px;
+  position: absolute;
+  margin: 0 !important;
+  top: -93px;
+  right: 0;
+  left: 0;
+}
+.services {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 123.4%;
+  font-weight: 500;
+  z-index: 1;
+}
+.services-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 21px 0 var(--padding-xl);
+}
+.lrem-ipsum-fyngen {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.5px;
+  z-index: 1;
+}
+.services-container,
+.services-container-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.services-container {
+  width: 950px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.services-container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: 48px;
+  color: var(--white);
+}
+.remote-radiology-parent,
+.sevice {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.remote-radiology-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 27.5px 59px 101px;
+  gap: 102.5px;
+  max-width: 100%;
+}
+.sevice {
+  width: 100%;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 24px 20px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .remote-radiology-parent {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .services {
+    font-size: 38px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .item-link-about-us-parent {
+    display: none;
+  }
+  .remote-radiology-inner {
+    width: 0;
+  }
+  .services-container {
+    gap: 16px;
+  }
+  .remote-radiology-parent {
+    gap: 51px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services {
+    font-size: 29px;
+    line-height: 36px;
+  }
+  .remote-radiology-parent {
+    gap: 26px;
+    padding-top: var(--padding-xl);
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+}
+
+
+.remote-radiology-interpretatio {
+    width: 300px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 123.4%;
+    font-weight: 600;
+    align-items: center;
+    flex-shrink: 0;
+    height: 300px;
+    font-size: 30px;
+    color:  white;
+   
+    margin-top: 50px;
+  }
+
+  .remote-radiology-interpretatio1{
+    width: 300px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 123.4%;
+    font-weight: 600;
+    align-items: center;
+    flex-shrink: 0;
+    height: 300px;
+    font-size: 30px;
+    color:  white;
+   text-align: center;
+   padding-left: 140px;
+   padding-top: 200px;
+ }
+ .remote-radiology-interpretatio2{
+    width: 300px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 123.4%;
+    font-weight: 600;
+    align-items: center;
+    flex-shrink: 0;
+    height: 300px;
+    font-size: 30px;
+    color:  rgb(255, 255, 255);
+   text-align: center;
+   padding-left: 140px;
+   padding-top: 200px;
+ }
+  .component-162,
+  .lorem-ipsum,
+  .remote-radiology-interpretatio {
+    display: flex;
+    justify-content: center;
+  }
+  .component-162 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(./asset/service/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px ;
+    margin: 20px 50px 0px 50px
+  }
+  .component-164 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(./asset/service/img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px ;
+    margin: 20px 70px 0px 0px
+  }
+
+  .component-168{
+    flex: 1;
+    border-radius: var(--br-xl);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(./asset/service/img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px ;
+    margin: 20px 50px 40px 50px
+  }
+  .component-179 {
+    flex: 1;
+    border-radius: var(--br-xl);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(./asset/service/img4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px ;
+    margin: 20px 70px 40px 0px
+  }
+
+  .lorem-ipsum {
+    width: 307px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 123.4%;
+    font-weight: 600;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .component-163,
+  .servicemain {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  
+  .servicemain {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  @media screen and (max-width: 750px) {
+    .lorem-ipsum,
+    .remote-radiology-interpretatio {
+      font-size: var(--font-size-7xl);
+      line-height: 32px;
+    }
+    .servicemain {
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .component-162,
+    .component-163 {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .remote-radiology-interpretatio {
+      font-size: var(--font-size-lgi);
+      line-height: 24px;
+    }
+    .component-162 {
+      padding-top: var(--padding-86xl);
+      padding-bottom: var(--padding-86xl);
+      box-sizing: border-box;
+    }
+    .lorem-ipsum {
+      font-size: var(--font-size-lgi);
+      line-height: 24px;
+    }
+    .component-163 {
+      padding-top: 118px;
+      padding-bottom: 117px;
+      box-sizing: border-box;
+    }
+  }
+
+
+/* servicetext */
+.blank-line,
+.blank-line1,
+.every-dream-has,
+.syed-ahmed-our,
+.we-invite-healthcare {
+  margin: 0;
+}
+.every-dream-has-container {
+  align-self: center;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-family: var(--font-poppins);
+  color: #000;
+  text-align: center;
+  flex-shrink: 0;
+  
+  width: 960px;
+  height: 216px;
+ margin-left: 300px;
+ margin-top: 40px;
+}
+.book-demo {
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 97px;
+}
+.component-166 {
+  width: 120px;
+  border-radius: 9.6px;
+  background-color: var(--blue);
+  flex-direction: row;
+  justify-content: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
+}
+.component-166:hover{
+    background-color: transparent;
+    color: #000;
+    border:1px solid rgb(6, 6, 6); 
+    box-shadow: #000;
+}
+
+.book-component,
+.component-166,
+.root {
+  display: flex;
+  align-items: flex-start;
+}
+.book-component {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}

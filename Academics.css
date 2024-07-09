@@ -1,0 +1,573 @@
+.frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 var(--br-21xl) var(--br-21xl);
+    background: linear-gradient(180deg, rgba(45, 89, 128, 0), #1b3363);
+    width: 100%;
+    height: 100%;
+  }
+  .frame-item,
+  .group-icon {
+    position: absolute;
+    top: 129.2px;
+    left: 117.4px;
+    width: 38.1px;
+    height: 24.7px;
+    z-index: 1;
+  }
+  .frame-item {
+    top: 123px;
+    left: 76.2px;
+    width: 35.4px;
+    height: 37px;
+  }
+  .rectangle-parent {
+    width: 100%;
+    height: 527px;
+    position: absolute;
+    margin: 0 !important;
+    top: -93px;
+    right: 0;
+    left: 0;
+  }
+  .item-link,
+  .item-link1 {
+    text-decoration: none;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    z-index: 1;
+  }
+  .item-link {
+    min-width: 73px;
+    white-space: nowrap;
+  }
+  .item-link1 {
+    min-width: 68px;
+  }
+  .item-link2 {
+    color: inherit;
+    min-width: 44px;
+  }
+  .item-link2,
+  .item-link3,
+  .item-link4 {
+    text-decoration: none;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .item-link3 {
+    color: var(--blue);
+    min-width: 92px;
+  }
+  .item-link4 {
+    color: inherit;
+    min-width: 64px;
+  }
+  .repeated-links {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--black);
+    font-family: var(--font-poppins);
+  }
+  .academics {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.5px;
+    line-height: 123.4%;
+    font-weight: 500;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .academics-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs);
+  }
+  .about-us-items {
+    flex: 1;
+    flex-direction: column;
+    gap: 110.5px;
+    min-width: 268px;
+    font-size: 48px;
+    color: var(--white);
+  }
+  .about-us-items,
+  .about-us-links,
+  .about-us-links-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .about-us-links {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 48px;
+  }
+  .about-us-links-wrapper {
+    width: 533px;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+  }
+  .sign-in {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    
+    text-align: left;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .component-6,
+  .frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .component-6 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) 34px var(--padding-5xs) 35px;
+    background-color: var(--blue);
+    border-radius:10px;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+    color: var(--white);
+  }
+  
+  
+  .component-6:hover {
+    color: #000;
+    background-color: white;
+  }
+  .frame-group {
+    width: 900px;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--black);
+    font-family: var(--font-poppins);
+  }
+  .c-network-is {
+    width: 950px;
+    position: relative;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .c-network-is-a-leading-telerad-wrapper,
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .c-network-is-a-leading-telerad-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .frame-parent {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 27.5px 59px 125px;
+    position: relative;
+    gap: var(--gap-13xl);
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+  .blank-line,
+  .blank-line1,
+  .india-has-some,
+  .our-first-academic,
+  .with-radiology-becoming {
+    margin: 0;
+  }
+  .with-radiology-becoming-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+  }
+  .frame-icon,
+  .frame-inner {
+    width: 1235.5px;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .frame-icon {
+    width: 520px;
+    border-radius: var(--br-3xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    min-height: 520px;
+  }
+  .c-raise-program,
+  .div {
+    position: relative;
+    line-height: 24px;
+  }
+  .div {
+    color: var(--blue);
+    display: inline-block;
+    min-width: 19px;
+  }
+  .c-raise-program {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: inherit;
+    color: #000000;
+    ;
+  }
+  .blank-line2,
+  .blank-line3,
+  .currently-our-masterclass,
+  .seeing-the-enthusiasm,
+  .the-5c-raise-program {
+    margin: 0;
+  }
+  .c-raise,
+  .seeing-the-enthusiasm-container {
+    position: relative;
+    line-height: 24px;
+    text-align: left;
+    font-size: 16px;
+  }
+  .seeing-the-enthusiasm-container {
+    align-self: stretch;
+  }
+  .c-raise {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    font-family: var(--font-poppins);
+   
+    display: inline-block;
+    min-width: 62px;
+  }
+  .component-171,
+  .frame-parent1,
+  .parent {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .component-171 {
+    cursor: pointer;
+    border: 1px solid transparent;
+  padding: 10px 30px;
+    background-color: var(--blue);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    color: var(--white);
+  }
+  .component-171:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: #000;
+  }
+
+  .frame-parent1,
+  .parent {
+    flex: 1;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-base);
+    min-width: 406px;
+    max-width: 100%;
+  }
+  .frame-parent1 {
+    flex-direction: row;
+    gap: 107px;
+  }
+  .frame-div,
+  .frame-parent1,
+  .vector-parent {
+    display: flex;
+    max-width: 100%;
+  }
+  .frame-div {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 3px 0 0;
+    box-sizing: border-box;
+  }
+  .vector-parent {
+    width: 1255.5px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 71px;
+  }
+  .frame-wrapper,
+  .with-radiology-becoming-more-a-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .with-radiology-becoming-more-a-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-11xs);
+    box-sizing: border-box;
+  }
+ 
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .blank-line4,
+  .lastly-as-a,
+  .owing-to-the {
+    margin: 0;
+  }
+  .owing-to-the-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .frame-parent4 {
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-base);
+  }
+  .frame-parent4,
+  .frame-wrapper1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  
+  .frame-parent3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .frame-parent3 {
+    width: 651px;
+    flex-direction: column;
+    gap: var(--gap-base);
+    min-width: 651px;
+    max-width: 100%;
+  }
+  .frame-child1 {
+    width: 520px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    max-height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    color: var(--blue);
+  }
+  .desktop-6,
+  .desktop-6-inner,
+  .frame-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-container {
+    flex: 1;
+    flex-direction: column;
+    gap: 80px;
+    max-width: 100%;
+  }
+  .desktop-6,
+  .desktop-6-inner {
+    box-sizing: border-box;
+  }
+  .desktop-6-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 56px;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .desktop-6 {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 24px 80px;
+    gap: 56px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1300px) {
+    .frame-parent {
+      padding-left: var(--padding-10xl);
+      padding-right: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .frame-parent4 {
+      align-self: stretch;
+      width: auto;
+    }
+    .frame-child1,
+    .frame-parent3 {
+      flex: 1;
+    }
+    .frame-parent2 {
+      flex-wrap: wrap;
+    }
+    .desktop-6-inner {
+      padding-left: var(--padding-9xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .frame-icon {
+      flex: 1;
+    }
+    .frame-parent1 {
+      flex-wrap: wrap;
+    }
+    .frame-parent3 {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .academics {
+      font-size: 38px;
+      line-height: 47px;
+    }
+    .about-us-links {
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .frame-group {
+      flex-wrap: wrap;
+    }
+    .frame-parent {
+      gap: var(--gap-base);
+    }
+    .c-raise-program {
+      font-size: var(--font-size-7xl);
+      line-height: 19px;
+    }
+    .parent {
+      min-width: 100%;
+    }
+    .frame-parent1 {
+      gap: 53px;
+    }
+    .vector-parent {
+      gap: 35px;
+    }
+    .with-radiology-becoming-more-a-parent {
+      gap: var(--gap-13xl);
+    }
+    .fellowship-program {
+      font-size: var(--font-size-7xl);
+      line-height: 19px;
+    }
+    .frame-container {
+      gap: 40px;
+    }
+    .desktop-6 {
+      gap: 28px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .academics {
+      font-size: 29px;
+      line-height: 36px;
+    }
+    .about-us-items {
+      gap: 55px;
+    }
+    .frame-parent {
+      padding-top: var(--padding-xl);
+      padding-bottom: 81px;
+      box-sizing: border-box;
+    }
+    .c-raise-program {
+      font-size: var(--font-size-lgi);
+      line-height: 14px;
+    }
+    .frame-parent1 {
+      gap: 27px;
+    }
+    .vector-parent {
+      gap: 18px;
+    }
+    .with-radiology-becoming-more-a-parent {
+      gap: var(--gap-base);
+    }
+    .fellowship-program {
+      font-size: var(--font-size-lgi);
+      line-height: 14px;
+    }
+    .frame-container {
+      gap: var(--gap-xl);
+    }
+  }

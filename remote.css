@@ -1,0 +1,1663 @@
+.remote-child {
+    margin-top: -142px;
+    align-self: stretch;
+    height: 527px;
+    position: relative;
+    border-radius: 0 0 var(--br-21xl) var(--br-21xl);
+    background: linear-gradient(180deg, rgba(45, 89, 128, 0), #1b3363);
+  }
+  .radio-diagnosis-has,
+  .remote-radiology-interpretatio {
+    position: relative;
+    letter-spacing: 0.5px;
+    color: var(--white);
+    text-align: center;
+    display: none;
+    max-width: 100%;
+  }
+  .remote-radiology-interpretatio {
+    
+    font-size: var(--font-size-29xl);
+    line-height: 123.4%;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .radio-diagnosis-has {
+    width: 950px;
+    font-size: var(--font-size-base);
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .blank-line,
+  .blank-line1,
+  .blank-line2,
+  .remote-radiology-reporting,
+  .the-500-strong,
+  .the-challenges-are,
+  .the-reports-are {
+    margin: 0;
+  }
+  .the-challenges-are-container1 {
+    width: 100%;
+  }
+  .the-challenges-are-container {
+    width: 626px;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    color: var(--color-black);
+    display: none;
+    align-items: center;
+    max-width: 100%;
+    z-index: 4;
+  }
+  .icon,
+  .icon1,
+  .icon2,
+  .life-at-traderjini-1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 31.76px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .life-at-traderjini-1-parent {
+    position: absolute;
+    top: 56.8px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl-1);
+    max-width: 100%;
+  }
+  .component-167 {
+    width: 494px;
+    height: 382.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 5;
+  }
+  .component-167,
+  .heading-2,
+  .remote-item {
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .heading-2 {
+    width: 1281px;
+    font-size: var(--font-size-17xl);
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #2d5980, rgba(45, 89, 128, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+  }
+  .remote-item {
+    width: 1235.5px;
+    max-height: 100%;
+    z-index: 7;
+  }
+  .radiation-1-icon {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .by-7-teleradiology {
+    position: absolute;
+    top: 0;
+    left: 32px;
+  }
+  .get-radiology-interpretations {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 410px;
+  }
+  .radiation-1-icon1,
+  .radiation-1-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 410px;
+    height: 122px;
+  }
+  .radiation-1-icon1 {
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .panel-of-expert {
+    position: absolute;
+    top: 0;
+    left: 32px;
+  }
+  .interpreting-images-of {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 410px;
+  }
+  .radiation-1-group {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 434px;
+    width: 410px;
+  }
+  .radiation-1-icon2 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .artificial-intelligence,
+  .at-5c-network {
+    position: absolute;
+    top: 0;
+    left: 32px;
+  }
+  .at-5c-network {
+    top: 38px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 410px;
+  }
+  .radiation-1-container {
+    position: absolute;
+    top: 0;
+    left: 868px;
+    width: 410px;
+    height: 164px;
+  }
+  .frame-parent {
+    width: 1278px;
+    height: 143px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+    z-index: 8;
+    font-size: var(--font-size-xl);
+  }
+  .radiation-1-icon3 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 9;
+  }
+  .multiple-modalities {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: none;
+    z-index: 10;
+  }
+  .c-network-extend {
+    width: 410px;
+    position: relative;
+    color: var(--blue);
+    display: none;
+    align-items: center;
+    max-width: 100%;
+    z-index: 11;
+  }
+  .radiation-1-icon4 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 12;
+  }
+  .accurate-reporting {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: none;
+    z-index: 13;
+  }
+  .going-beyond-5c,
+  .lrem-ipsum-fyngen {
+    position: relative;
+    display: none;
+    align-items: center;
+  }
+  .going-beyond-5c {
+    width: 410px;
+    color: var(--blue);
+    max-width: 100%;
+    z-index: 14;
+  }
+  .lrem-ipsum-fyngen {
+    width: 291px;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.5px;
+    color: var(--black);
+    text-align: center;
+    justify-content: center;
+    z-index: 15;
+  }
+  .book-demo1 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 40.5px);
+    line-height: 24px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 81px;
+  }
+  .component-1661 {
+    width: 117px;
+    height: 40px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--blue);
+    display: none;
+    white-space: nowrap;
+    z-index: 16;
+    color: var(--white);
+  }
+  .radiation-1-icon5 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .second-opinion {
+    position: absolute;
+    top: 0;
+    left: 32px;
+  }
+  .a-second-opinion {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 410px;
+  }
+  .frame-div {
+    position: absolute;
+    top: 0;
+    left: 434px;
+    width: 410px;
+    height: 143px;
+  }
+  .radiation-1-icon6 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .an-accurate-and,
+  .collaborate-with-experts {
+    position: absolute;
+    top: 0;
+    left: 32px;
+  }
+  .an-accurate-and {
+    top: 38px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 410px;
+  }
+  .radiation-1-parent1 {
+    position: absolute;
+    top: 0;
+    left: 868px;
+    width: 410px;
+    height: 143px;
+  }
+  .radiation-1-icon7 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .nighthawk-emergency {
+    position: absolute;
+    top: 0;
+    left: 32px;
+  }
+  .an-emergency-can {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    width: 410px;
+  }
+  .radiation-1-parent2 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 410px;
+    height: 122px;
+  }
+  .frame-group {
+    width: 1278px;
+    height: 164px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+    z-index: 17;
+    font-size: var(--font-size-xl);
+  }
+  .radiation-1-icon8 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 18;
+  }
+  .covid-ready {
+    position: relative;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    display: none;
+    z-index: 19;
+  }
+  .during-the-testing {
+    width: 410px;
+    position: relative;
+    color: var(--blue);
+    white-space: pre-wrap;
+    display: none;
+    align-items: center;
+    max-width: 100%;
+    z-index: 20;
+  }
+  .radiation-1-icon9 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 21;
+  }
+  .stringent-quality-check {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: none;
+    z-index: 22;
+  }
+  .at-5c-network1 {
+    width: 410px;
+    position: relative;
+    color: var(--blue);
+    display: none;
+    align-items: center;
+    max-width: 100%;
+    z-index: 23;
+  }
+  .radiation-1-icon10 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 24;
+  }
+  .unlimited-storage {
+    position: relative;
+    font-size: var(--font-size-xl);
+    display: none;
+    z-index: 25;
+  }
+  .storing-diagnostic-images {
+    width: 410px;
+    position: relative;
+    color: var(--blue);
+    display: none;
+    align-items: center;
+    max-width: 100%;
+    z-index: 26;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 var(--br-21xl) var(--br-21xl);
+    background: linear-gradient(180deg, rgba(45, 89, 128, 0), #1b3363);
+    width: 100%;
+    height: 100%;
+  }
+  .frame-item,
+  .group-icon {
+    position: absolute;
+    top: 129.2px;
+    left: 117.4px;
+    width: 38.1px;
+    height: 24.7px;
+    z-index: 1;
+  }
+  .frame-item {
+    top: 123px;
+    left: 76.2px;
+    width: 35.4px;
+    height: 37px;
+  }
+  .rectangle-parent {
+    width: 100%;
+    height: 527px;
+    position: absolute;
+    margin: 0 !important;
+    top: -93px;
+    right: 0;
+    left: 0;
+  }
+  .item-link {
+    color: inherit;
+    min-width: 73px;
+    white-space: nowrap;
+  }
+  .item-link,
+  .item-link1,
+  .item-link2,
+  .item-link3,
+  .item-link4 {
+    text-decoration: none;
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .item-link1 {
+    color: var(--blue);
+    min-width: 68px;
+  }
+  .item-link2,
+  .item-link3,
+  .item-link4 {
+    color: inherit;
+    min-width: 44px;
+  }
+  .item-link3,
+  .item-link4 {
+    min-width: 92px;
+  }
+  .item-link4 {
+    min-width: 64px;
+  }
+  .item-link-about-us-parent {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--black);
+    font-family: var(--font-poppins);
+  }
+  .frame-wrapper {
+    width: 533px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .sign-in {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+  
+    text-align: left;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .component-6,
+  .frame-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .component-6 {
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    padding: var(--padding-5xs) 34px var(--padding-5xs) 35px;
+    background-color: var(--blue);
+    border-radius: 7px;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+    color: var(--white);
+  }
+  .component-6:hover{
+color: #000;
+background-color: white;
+  }
+  .component-1662:hover,
+  .component-1663:hover {
+    background-color: var(--color-steelblue-100);
+  }
+  .frame-parent1 {
+    width: 900px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .remote-radiology-interpretatio1 {
+    margin: 0;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 123.4%;
+    font-weight: 500;
+    font-family: inherit;
+    z-index: 1;
+    font-size: 48px ;
+  }
+  .remote-radiology-interpretatio-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 73px;
+  }
+  .radio-diagnosis-has1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    z-index: 1;
+  }
+  .frame-parent3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .book-demo2 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+  
+    text-align: left;
+    display: inline-block;
+    min-width: 81px;
+  }
+  .component-166-wrapper,
+  .component-1662 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .component-1662 {
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    background-color: var(--blue);
+    border-radius: 10px;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+    padding: 10px;
+    color: white;
+  }
+
+  .component-1662:hover{
+    border: 1px solid black;
+ color: #000;
+ border-radius: 10px ;
+  }
+
+  .component-166-wrapper {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .frame-parent2 {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    max-width: 100%;
+  }
+  .frame-container,
+  .frame-wrapper1 {
+    align-self: stretch;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-wrapper1 {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .frame-container {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 27.5px 59px 37px;
+    position: relative;
+    gap: 102.5px;
+    text-align: center;
+    font-size: var(--font-size-29xl);
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+  .blank-line3,
+  .blank-line4,
+  .blank-line5,
+  .remote-radiology-reporting1,
+  .the-500-strong1,
+  .the-challenges-are1,
+  .the-reports-are1 {
+    margin: 0;
+  }
+  .the-challenges-are-container2 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 407px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+  .icon3,
+  .icon4,
+  .icon5 {
+    align-self: stretch;
+    height: 243.1px;
+    position: relative;
+    border-radius: 31.76px;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+
+  .component-1671 {
+    height: 382.8px;
+    width: 494px;
+    overflow-y: hidden; /* Hide the scrollbar */
+    flex-shrink: 0;
+    padding: 56.8px 0 0;
+    box-sizing: border-box;
+    min-width: 494px;
+    position: relative;
+  }
+  
+  .life-at-traderjini-1-group {
+    height: 1032.8px; /* Same as provided */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 263.2px; /* Same as provided */
+    box-sizing: border-box;
+    gap: var(--gap-xl-1); /* Same as provided */
+    max-width: 100%;
+    transition: transform 3s ease-in-out; /* Transition for smooth slide */
+  }
+  
+  .life-at-traderjini-1-group:hover {
+    transform: translateY(-100%);
+  }
+  
+  .life-at-traderjini-11 {
+    align-self: stretch;
+    height: 243.1px;
+    position: relative;
+    border-radius: 31.76px;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  
+  .life-at-traderjini-1-group img {
+    display: block;
+    margin-bottom: 10px; /* Adjust as needed */
+    transition: transform 0.5s ease-in-out; /* Transition for individual images if needed */
+  }
+  
+  /* .life-at-traderjini-1-group {
+    height: 1032.8px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 263.2px;
+    box-sizing: border-box;
+    gap: var(--gap-xl-1);
+    max-width: 100%;
+  }
+  .component-1671 {
+    height: 382.8px;
+    width: 494px;
+    overflow-y: auto;
+    flex-shrink: 0;
+    padding: 56.8px 0 0;
+    box-sizing: border-box;
+    min-width: 494px;
+  } */
+  .component-1671,
+  .desktop-6-inner,
+  .the-challenges-are-even-more-f-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .the-challenges-are-even-more-f-parent {
+    flex: 1;
+    gap: 139px;
+  }
+  .desktop-6-inner {
+    width: 1371px;
+    padding: 0 var(--padding-37xl) var(--padding-5xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .frame-inner {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .desktop-6-child {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 78px 6px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .heading-21,
+  .radiation-1 {
+    margin: 0;
+    position: relative;
+  }
+  .heading-21 {
+    align-self: stretch;
+    font-size: inherit;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: inherit;
+    background: linear-gradient(90deg, #2d5980, rgba(45, 89, 128, 0.417));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .radiation-1 {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .by-7-teleradiology1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .get-radiology-interpretations1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent6 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    max-width: calc(100% - 868px);
+    flex-shrink: 0;
+  }
+  .radiation-1-icon11 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .panel-of-expert1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent9 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .interpreting-images-of1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent8 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    max-width: calc(100% - 868px);
+    flex-shrink: 0;
+  }
+  .radiation-11 {
+    cursor: pointer;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .artificial-intelligence1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent11 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    margin-top: 10px;
+  }
+  .at-5c-network2 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent10,
+  .frame-parent5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent10 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+    max-width: calc(100% - 868px);
+    flex-shrink: 0;
+  }
+  .frame-parent5 {
+    align-self: stretch;
+    height: 143px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    gap: var(--gap-5xl);
+    max-width: 100%;
+  }
+  .radiation-12 {
+    cursor: pointer;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .multiple-modalities1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent14 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .c-network-extend1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent13 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    min-width: 266px;
+    max-width: 100%;
+  }
+  .lrem-ipsum-fyngen1 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.5px;
+  }
+  .book-demo3 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 81px;
+  }
+  .component-166-container,
+  .component-1663 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .component-1663 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-lg);
+    background-color: var(--blue);
+    border-radius: var(--br-5xs);
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .component-166-container {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .frame-wrapper3,
+  .lrem-ipsum-fyngen-plankning-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .lrem-ipsum-fyngen-plankning-parent {
+    width: 291px;
+    gap: var(--gap-5xs);
+  }
+  .frame-wrapper3 {
+    width: 332px;
+    padding: 31px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--black);
+  }
+  .radiation-13 {
+    cursor: pointer;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .accurate-reporting1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent16 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .going-beyond-5c1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent12,
+  .frame-parent15 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent15 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+    min-width: 266px;
+  }
+  .frame-parent12 {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 63px;
+  }
+  .radiation-1-icon12 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .nighthawk-emergency1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent19 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    max-width: 100%;
+  }
+  .an-emergency-can1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent18 {
+    margin-top: -1px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    min-width: 307px;
+    max-width: 100%;
+  }
+  .radiation-1-icon13 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .second-opinion1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent21 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .a-second-opinion1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent20 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    min-width: 307px;
+    max-width: 100%;
+  }
+  .radiation-1-icon14 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .collaborate-with-experts1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent23 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .an-accurate-and1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent17,
+  .frame-parent22 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent22 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+    min-width: 307px;
+  }
+  .frame-parent17 {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 21px;
+    box-sizing: border-box;
+    gap: var(--gap-5xl);
+  }
+  .radiation-1-icon15 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .covid-ready1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent26 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .during-the-testing1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+    white-space: pre-wrap;
+  }
+  .frame-parent25 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    min-width: 307px;
+    max-width: 100%;
+    color: var(--color-black);
+  }
+  .radiation-1-icon16 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .stringent-quality-check1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent28 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    max-width: 100%;
+  }
+  .at-5c-network3 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent27 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    min-width: 307px;
+    max-width: 100%;
+  }
+  .radiation-1-icon17 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .radiation-1-wrapper9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .unlimited-storage1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frame-parent30 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .storing-diagnostic-images1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--blue);
+  }
+  .frame-parent24,
+  .frame-parent29 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent29 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+    min-width: 307px;
+  }
+  .frame-parent24 {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+  }
+  .frame-parent4 {
+    flex: 1;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .frame-parent4,
+  .frame-wrapper2,
+  .heading-2-introduction-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-wrapper2 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 2px 0 1px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-xl);
+  }
+  .heading-2-introduction-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .desktop-6,
+  .frame-section,
+  .remote {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .frame-section {
+    align-self: stretch;
+    flex-direction: row;
+   
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-gray-100);
+    font-family: var(--font-poppins);
+   padding-bottom: 30px;
+  }
+  .desktop-6,
+  .remote {
+    width: 100%;
+    background-color: var(--white);
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .desktop-6 {
+    margin: 0 !important;
+    position: absolute;
+    right: 0;
+    bottom: -49px;
+    left: 0;
+    padding: 0 var(--padding-5xl) 80px;
+    gap: 56px;
+    max-width: 100%;
+    z-index: 2;
+    top: 1px;
+  }
+  .remote {
+    height: 2013px;
+    position: relative;
+    padding: 0 var(--padding-5xl) 1628px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    font-family: var(--font-poppins);
+  }
+  @media screen and (max-width: 1200px) {
+    .frame-container {
+      padding-left: var(--padding-10xl);
+      padding-right: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .component-1671 {
+      flex: 1;
+    }
+    .the-challenges-are-even-more-f-parent {
+      flex-wrap: wrap;
+      gap: 69px;
+    }
+    .desktop-6-child,
+    .desktop-6-inner {
+      padding-left: var(--padding-9xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+    .desktop-6-child {
+      padding-left: var(--padding-20xl);
+      padding-right: var(--padding-20xl);
+    }
+    .frame-section {
+      padding-left: var(--padding-9xl);
+      padding-right: 27px;
+      box-sizing: border-box;
+    }
+    .remote {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .remote-radiology-interpretatio {
+      font-size: var(--font-size-19xl);
+      line-height: 47px;
+    }
+    .heading-2 {
+      font-size: var(--font-size-10xl);
+    }
+    .remote-radiology-interpretatio1 {
+      font-size: var(--font-size-19xl);
+      line-height: 47px;
+    }
+    .remote-radiology-interpretatio-wrapper {
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .heading-21 {
+      font-size: var(--font-size-10xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .item-link-about-us-parent {
+      display: none;
+    }
+    .frame-wrapper {
+      width: 0;
+    }
+    .frame-parent3 {
+      gap: var(--gap-base);
+    }
+    .frame-container {
+      gap: 51px;
+    }
+    .component-1671,
+    .the-challenges-are-container2 {
+      min-width: 100%;
+    }
+    .the-challenges-are-even-more-f-parent {
+      gap: 35px;
+    }
+    .frame-parent12 {
+      gap: 31px;
+    }
+    .frame-parent4 {
+      gap: var(--gap-xl);
+    }
+    .heading-2-introduction-parent {
+      gap: var(--gap-5xl);
+    }
+    .desktop-6 {
+      gap: 28px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .remote-radiology-interpretatio {
+      font-size: var(--font-size-10xl);
+      line-height: 36px;
+    }
+    .heading-2 {
+      font-size: var(--font-size-3xl);
+    }
+    .accurate-reporting,
+    .artificial-intelligence,
+    .by-7-teleradiology,
+    .collaborate-with-experts,
+    .covid-ready,
+    .multiple-modalities,
+    .nighthawk-emergency,
+    .panel-of-expert,
+    .second-opinion,
+    .stringent-quality-check,
+    .unlimited-storage {
+      font-size: var(--font-size-base);
+    }
+    .remote-radiology-interpretatio1 {
+      font-size: var(--font-size-10xl);
+      line-height: 36px;
+    }
+    .frame-container {
+      gap: 26px;
+    }
+    .the-challenges-are-even-more-f-parent {
+      gap: 17px;
+    }
+    .heading-21 {
+      font-size: var(--font-size-3xl);
+    }
+    .accurate-reporting1,
+    .artificial-intelligence1,
+    .by-7-teleradiology1,
+    .multiple-modalities1,
+    .panel-of-expert1 {
+      font-size: var(--font-size-base);
+    }
+    .frame-parent12 {
+      gap: var(--gap-base);
+    }
+    .collaborate-with-experts1,
+    .covid-ready1,
+    .nighthawk-emergency1,
+    .second-opinion1,
+    .stringent-quality-check1,
+    .unlimited-storage1 {
+      font-size: var(--font-size-base);
+    }
+  }
